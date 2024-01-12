@@ -14,15 +14,15 @@
     background: linear-gradient(90deg, rgba(247, 149, 51, .1), rgba(243, 112, 85, .1) 15%, rgba(239, 78, 123, .1) 30%, rgba(161, 102, 171, .1) 44%, rgba(80, 115, 184, .1) 58%, rgba(16, 152, 173, .1) 72%, rgba(7, 179, 155, .1) 86%, rgba(109, 186, 130, .1))
 }
 
+/*GitHub开源圆角*/
 #card-info-btn {
     border-radius: 7px;
     overflow: hidden;
 }
 
 #footer-wrap {
-    backdrop-filter: blur(15px) saturate(180%);
+    backdrop-filter: blur(50px) saturate(180%);
 }
-
 
 /* 首页文章卡片 */
 #recent-posts>.recent-post-item {
@@ -48,4 +48,8 @@ div#archive {
     backdrop-filter: var(--backdrop-filter);
     border: var(--border-style);
     border-radius: 20px;
+}
+
+#page-header.nav-visible:not(.fixed) #nav {
+    backdrop-filter: blur(50px) saturate(180%);
 }
