@@ -1,3 +1,7 @@
+#body {
+    font-size: 206px;
+}
+
 #recent-posts>.recent-post-item,
 .layout_page>div:first-child:not(.recent-posts),
 .layout_post>#page,
@@ -52,4 +56,9 @@ div#archive {
 
 #page-header.nav-visible:not(.fixed) #nav {
     backdrop-filter: blur(50px) saturate(180%);
+    background-color: rgb(255, 255, 255, 0);
+}
+
+#page-header.nav-fixed #nav a, #page-header.nav-fixed #nav #toggle-menu {
+    color: rgb(255, 255, 255);
 }
