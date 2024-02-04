@@ -5,9 +5,9 @@
 }
 
 @font-face {
-    font-family: 'Console';
+    font-family: 'Consolas';
     font-display: swap;
-    src: url('/fonts/Console.ttf') format("truetype");
+    src: url('/fonts/Consolas.ttf') format("truetype");
 }
 
 #recent-posts>.recent-post-item,
