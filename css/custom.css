@@ -1,5 +1,13 @@
-#body {
-    font-size: 206px;
+@font-face {
+    font-family: 'HarmonyOS_Sans';
+    font-display: swap;
+    src: url('/fonts/HarmonyOS_Sans.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Console';
+    font-display: swap;
+    src: url('/fonts/Console.ttf') format("truetype");
 }
 
 #recent-posts>.recent-post-item,
@@ -59,6 +67,7 @@ div#archive {
     background-color: rgb(255, 255, 255, 0);
 }
 
-#page-header.nav-fixed #nav a, #page-header.nav-fixed #nav #toggle-menu {
+#page-header.nav-fixed #nav a,
+#page-header.nav-fixed #nav #toggle-menu {
     color: rgb(255, 255, 255);
 }
